@@ -44,6 +44,9 @@ const app = new Vue({
         clear(){
             clearInterval(this.timer);
             this.timer = null;
+        },
+        effetto(index){
+            this.counter = index
         }
     },
     mounted(){
